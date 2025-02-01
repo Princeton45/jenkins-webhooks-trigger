@@ -36,6 +36,8 @@ Then I went into my Github repository settings to create a webhook.
 
 ![webhook](https://github.com/Princeton45/jenkins-webhooks-trigger/blob/main/images/webhook.png)
 
-Now on pushes to my `master` branch, the Jenkins `webhooks-trigger-auto` pipeline will automatically get triggered.
+Github will send notifications to the `/github-webhook/` endpoint on Jenkins when it detects a push to the branch. So now on every notification, Jenkins will trigger the pipeline.
+
+On pushes to my `master` branch, the Jenkins `webhooks-trigger-auto` pipeline will automatically get triggered.
 
 Then if you come back into the webhook settings, you will see the message `Last delivery was successful.` meaning that GitHub successfully sent an `HTTP POST` request to my Jenkins webhook URL of `http://67.205.164.34:8080/github-webhook/`.
