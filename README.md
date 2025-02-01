@@ -41,3 +41,5 @@ Github will send notifications to the `/github-webhook/` endpoint on Jenkins whe
 On pushes to my `master` branch, the Jenkins `webhooks-trigger-auto` pipeline will automatically get triggered.
 
 Then if you come back into the webhook settings, you will see the message `Last delivery was successful.` meaning that GitHub successfully sent an `HTTP POST` request to my Jenkins webhook URL of `http://67.205.164.34:8080/github-webhook/`.
+
+![success](https://github.com/Princeton45/jenkins-webhooks-trigger/blob/main/images/success.png)
