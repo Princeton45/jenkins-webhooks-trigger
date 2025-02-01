@@ -1,6 +1,6 @@
 ## Project: Automated CI Pipeline with Webhook
 
-This project demonstrates how I set up an automated Continuous Integration (CI) pipeline using a webhook. Now, whenever I make changes to my project in Github, the pipeline in Jenkins is automatically triggered.
+This project demonstrates how I set up an automated Continuous Integration (CI) pipeline using a webhook. Now, whenever I make pushes to my main branch in Github, the pipeline in Jenkins is automatically triggered.
 
 ## Technologies Used
 
